@@ -3346,6 +3346,147 @@ header .index7-navbar  nav.navbar.navbar-fixed {
         transform: translateY(0);
     }
 }
+/*iPhone 4*/
+@media only screen and (max-width: 320px) and (device-height: 480px) {
+	.feature-heading{
+		padding: 0;
+		font-size: 1.4rem;
+	}
+	h2.feature-heading.top100{
+		margin-top: 20px;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 0.9rem;
+		line-height: 1.1rem;
+	}
+	.homebarracuda-club{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 100%;
+	}
+}
+/*iPhone 5*/
+@media only screen and (max-width: 320px) and (device-height: 568px) {
+	.feature-heading{
+		padding: 0;
+		font-size: 1.5rem;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+	.homebarracuda-club{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 100%;
+	}
+}
+/*iPhone 6*/
+@media only screen and (max-width: 375px) and (device-height: 667px) {
+	.feature-heading{
+		padding: 0;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+	.homebarracuda-club{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+}
+/*iPhone 6 plus*/
+@media only screen and (max-width: 414px) and (device-height: 736px) {
+	.feature-heading{
+		padding: 0;
+	}
+	.homeparttwo-text{
+		padding: 50px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 1.2rem;
+	}
+	.homebarracuda-club{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+}
+/*Macbook Laptop 2008*/
 @media only screen and (device-height: 800px) {
 	.padding-top {
     	padding-top: 8.375rem;
@@ -3359,8 +3500,69 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		padding-bottom: 2.375rem;
 	}
 }
+/*Desktop*/
 @media only screen and (device-height: 960px) {
 	.padding-top {
     	padding-top: 10.375rem;
+	}
+}
+/*iPad*/
+@media only screen and (device-height: 1024px) {
+	.padding-top {
+    	padding-top: 15.375rem;
+	}
+	.feature-heading{
+		padding: 0 2em;
+	}
+	.homeparttwo-text {
+    	padding: 0 1em;
+	}
+	.homeparttwo-text p{
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.club-left-contents.padding-top.padding-bottom.top25 {
+    	padding-bottom: 2.375rem;
+    	height: 100vh;
+	}
+	.club-right-contents.padding-top.padding-bottom {
+		padding-bottom: 2.375rem;
+		height: 100vh;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 10px;	
+	}
+	.homebarracuda-club h2{
+		margin: 10px 0 2.5em;
+	}
+}
+
+/*iPad Pro*/
+@media only screen and (device-height: 1366px) {
+	.padding-top {
+    	padding-top: 20.375rem;
+	}
+	.feature-heading{
+		padding: 0 2em;
+		font-size: 3.5rem;
+	}
+	.homeparttwo-text {
+    	padding: 0 1em;
+	}
+	.homeparttwo-text p{
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+		padding-bottom: 30px;
+	}
+	.club-right-contents.padding-top.padding-bottom {
+		height: 100vh;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 10px;	
+	}
+	.homebarracuda-club h2{
+		margin: 10px 0 2.5em;
 	}
 }

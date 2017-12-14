@@ -93,13 +93,12 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 								    </div>
 								</div>
                            </div>
-            </div>
-        </div>
+						</div>
+				</div>
         <div class="text-center bottom10">
 		<a href="#programme" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-blue-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
     </section>
     <!--club ends-->
-    
     
     
     
