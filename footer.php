@@ -16,53 +16,29 @@
 <!-- footer starts -->
 <div class="footer">
     <div class="container">
-        <div class="footer-icon clearfix text-center padding">
-            <ul class="footer-icon-list list-inline social ">
-                <li>
-                    <a href="#." class="facebook button">
-                        <i class="fa fa-facebook" ></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#." class="twitter button">
-                        <i class="fa fa-twitter" ></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#." class="google button">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#." class="linkedin button">
-                        <i class="fa fa-linkedin" ></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#." class="pinterest button">
-                        <i class="fa fa-pinterest-p"></i>
-                    </a>
-                </li>
-
-            </ul>
+        <div class="footer-icon clearfix padding">
             <div class="p3 top10">
                 <footer id="colophon" class="site-footer">
-					<div class="site-info">
-						<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'barracuda' ) ); ?>"><?php
-							/* translators: %s: CMS name, i.e. WordPress. */
-							printf( esc_html__( 'Proudly powered by %s', 'barracuda' ), 'WordPress' );
-						?></a>
-						<span class="sep"> | </span>
+					<div class="site-info col-md-4 top25">
 						<?php
-							/* translators: 1: Theme name, 2: Theme author. */
-							printf( esc_html__( 'Theme: %1$s by %2$s.', 'barracuda' ), 'barracuda', '<a href="https://zakirsajib.online">Zakir Sajib</a>' );
+							$site_name = get_bloginfo( 'name' );
+							$current_year = date('Y');
+							printf( esc_html__( 'All Rights Reserved. %s', 'barracuda' ), $site_name  );
+							printf(esc_html__( ' %s', 'barracuda' ), $current_year);
 						?>
 					</div><!-- .site-info -->
+					<div class="supporters col-md-8">
+						<ul>
+							<li>Supported by</li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/capital_enterprise.png" alt="Capital Enterprise"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/casts.png" alt="CASTS"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/eu.png"  alt="European Union"></a></li>
+						</ul>
+					</div>
+					
 				</footer><!-- #colophon -->
             </div>
-
         </div>
-
     </div>
 </div>
 

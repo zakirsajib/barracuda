@@ -641,11 +641,29 @@ experienced and successful founders, experts and innovators. Our prime focus is 
     <section class="contact-us padding" id="contact">
         <div class="container">
             <div class="row">
+	            <div class="col-md-4">
+                    <div class="office-location">
+                        <h2>About Us</h2>
+                        <div class="address top50">
+                            <i class="fa fa-map-marker" ></i>
+                            <div class="p3">
+	                            Idea London,
+	                        </div>
+	                        <div class="p3">
+		                        69 Wilson Street,
+                            </div>
+                            <div class="p3">
+		                        London,
+                            </div>
+                            <div class="p3">
+		                        EC2A 2BB
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-8">
                     <div class="social-info">
-                        <h1>
-                            Let’s <span class="blue-span">Get In Touch</span>
-                        </h1>                      
+                        <h2>To Join Smiling Barracuda</h2>                      
                         <div class="contact-us-form top55">
 	                        
 	                        <!-- Nav tabs -->
@@ -889,57 +907,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="office-location">
-                        <h2 >
-                            Office <span class="yellow-span">Location</span>
-                        </h2>
-                        <p class="top50">
-                            We're based on Rajshahi district, 10 minutes walking distance from Padma River.
-                        </p>
-                        <div class="address top50">
-                            <i class="fa fa-map-marker" ></i>
-                            <div class="p3 heading">
-                                OUR ADDRESS
-                            </div>
-                            <div class="p3">
-	                            Road 2, House 300, 2nd Floor 
-	                        </div>
-	                        <div class="p3">
-		                        Vodra, Rajshahi 6207 Rajshahi, Bangladesh
-                            </div>
-
-                        </div>
-                        <div class="phone top30">
-                            <i class="fa fa-phone" ></i>
-                            <div class="p3 heading">
-                                PHONE NUMBER
-                            </div>
-                            <div class="p3">
-                                Office: 01711-110211
-                            </div>
-
-                        </div>
-                        <div class="envelope top30">
-                            <i class="fa fa-envelope" ></i>
-                            <div class="p3 heading">
-                                EMAIL ADDRESS
-                            </div>
-                            <div class="p3">
-                                Email: <a href="mailto:info@aristocrat.com">info@aristocrat.com</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
             </div>
-        </div>
-
-        <div class="clearfix svg">
-            <svg id="bigTriangleColorbottom" xmlns="http://www.w3.org/2000/svg" fill="#fff" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
-                <path d="M0 30 L50 90 L100 30 V100 H0" />
-            </svg>
         </div>
     </section>
     <!-- contact us end -->

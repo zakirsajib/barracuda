@@ -1706,6 +1706,14 @@ svg{
 
 /*news ends*/
 /*contact us*/
+
+.contact-us{
+	background-image: url("../images/contact-background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .contact-us .contact-us-form label{
     font-weight: 100;
     font-size: 16px;
@@ -1725,6 +1733,17 @@ svg{
     color: #fff;
 }
 /*office address*/
+
+.office-location h2,
+.social-info h2{
+	font-size: 1.2rem;
+	color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0.5em 0;
+    margin: 25px 0 2.5em;
+}
+
+
 .office-location .address,
 .office-location .phone,
 .office-location .envelope
@@ -1755,26 +1774,27 @@ svg{
     position: absolute;
     width: 100%;
 }
+
+
+
 /*contact us ends*/
 /*footer*/
 .footer{
-    background: #515a5f;
+    background: #fff;
     position: fixed;
     z-index: -1;
     bottom: 0;
     width: 100%;
 }
 
-.footer .footer-icon {
-    color: #fff;
-
+.site-info,
+.footer .supporters{
+    color: #23355e;
+    font-weight: 600;
 }
-.footer ul.social li a{
-    color: #fff;
-    border-color: #fff;
-}
-.footer ul.social li a:hover{
-    border-color: transparent;
+.supporters ul li{
+	display: inline-block;
+	padding: 0 10px 0 0;
 }
 textarea {
     resize: none;
