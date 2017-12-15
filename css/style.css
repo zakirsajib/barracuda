@@ -547,7 +547,6 @@ p {
 /* Helper Classes */
 /* Social Icons */
 ul.social li a{
-    display:block;
     height:34px;
     width:34px;
     position:relative;
@@ -1717,6 +1716,7 @@ svg{
 .contact-us .contact-us-form label{
     font-weight: 100;
     font-size: 16px;
+    color: #fff;
 }
 .contact-us .contact-us-form .form-control{
     height: 45px;
@@ -1743,6 +1743,18 @@ svg{
     margin: 25px 0 2.5em;
 }
 
+.follow-us{
+	vertical-align: middle;	
+}
+
+.social-contact{
+	padding: 0 2em;
+}
+
+.social-contact li,
+.social-contact li a{
+	color: #fff;
+}
 
 .office-location .address,
 .office-location .phone,
@@ -1751,30 +1763,26 @@ svg{
     display: block;
     cursor: pointer;
 }
-.office-location .address i,
-.office-location .phone i ,
-.office-location .envelope i  {
+.office-location .address i{
     float: left;
     font-size: 30px;
 
 }
-.office-location .address .p3,
-.office-location .phone .p3,
-.office-location .envelope .p3{
+.office-location .address .p3{
     margin-left: 45px;
+    color: #fff;
 }
-.office-location .address .heading,
-.office-location .phone .heading,
-.office-location .envelope .heading{
+.office-location .address .heading{
     font-weight: 600;
 }
-.contact-us .svg{
-    transform: rotate(180deg);
-    bottom: -8px !important;
-    position: absolute;
-    width: 100%;
-}
 
+/*Ninja forms */
+.nf-field-element input, 
+.nf-field-element select, 
+.nf-field-element textarea{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
 
 
 /*contact us ends*/
@@ -1792,10 +1800,7 @@ svg{
     color: #23355e;
     font-weight: 600;
 }
-.supporters ul li{
-	display: inline-block;
-	padding: 0 10px 0 0;
-}
+
 textarea {
     resize: none;
 }

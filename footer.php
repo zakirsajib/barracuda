@@ -28,7 +28,7 @@
 						?>
 					</div><!-- .site-info -->
 					<div class="supporters col-md-8">
-						<ul>
+						<ul class="list-inline">
 							<li>Supported by</li>
 							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/capital_enterprise.png" alt="Capital Enterprise"></a></li>
 							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/casts.png" alt="CASTS"></a></li>
