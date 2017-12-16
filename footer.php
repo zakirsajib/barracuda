@@ -16,7 +16,7 @@
 <!-- footer starts -->
 <div class="footer">
     <div class="container">
-        <div class="footer-icon clearfix padding">
+        <div class="footer-icon clearfix top50 bottom50">
             <div class="p3 top10">
                 <footer id="colophon" class="site-footer">
 					<div class="site-info col-md-4 top25">

@@ -138,15 +138,19 @@ function barracuda_scripts() {
 	wp_enqueue_script( 'jquery.themepunch.tools.min', get_template_directory_uri() . '/js/jquery.themepunch.tools.min.js', array('jquery'), null, true );
 	wp_enqueue_script( 'jquery.themepunch.revolution.min', get_template_directory_uri() . '/js/jquery.themepunch.revolution.min.js', array('jquery'), null, true );
 	wp_enqueue_script( 'easyResponsiveTabs', get_template_directory_uri() . '/js/easyResponsiveTabs.js', array('jquery'), null,  true );
-	wp_enqueue_script( 'revolution.extension.actions', get_template_directory_uri() . '/js/extensions/revolution.extension.actions.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.carousel', get_template_directory_uri() . '/js/extensions/revolution.extension.carousel.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.kenburn.min', get_template_directory_uri() . '/js/extensions/revolution.extension.kenburn.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.layeranimation', get_template_directory_uri() . '/js/extensions/revolution.extension.layeranimation.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.migration.min', get_template_directory_uri() . '/js/extensions/revolution.extension.migration.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.navigation.min', get_template_directory_uri() . '/js/extensions/revolution.extension.navigation.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.parallax.min', get_template_directory_uri() . '/js/extensions/revolution.extension.parallax.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'revolution.extension.slideanims.min', get_template_directory_uri() . '/js/extensions/revolution.extension.slideanims.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'extensions/revolution.extension.video.min', get_template_directory_uri() . '/js/extensions/revolution.extension.video.min.js', array('jquery'), null, true );
+	
+	
+	wp_enqueue_script( 'matchHeight', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), null, true );
+	
+	//wp_enqueue_script( 'revolution.extension.actions', get_template_directory_uri() . '/js/extensions/revolution.extension.actions.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.carousel', get_template_directory_uri() . '/js/extensions/revolution.extension.carousel.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.kenburn.min', get_template_directory_uri() . '/js/extensions/revolution.extension.kenburn.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.layeranimation', get_template_directory_uri() . '/js/extensions/revolution.extension.layeranimation.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.migration.min', get_template_directory_uri() . '/js/extensions/revolution.extension.migration.min.js', array('jquery'), null, true );
+	////wp_enqueue_script( 'revolution.extension.navigation.min', get_template_directory_uri() . '/js/extensions/revolution.extension.navigation.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.parallax.min', get_template_directory_uri() . '/js/extensions/revolution.extension.parallax.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'revolution.extension.slideanims.min', get_template_directory_uri() . '/js/extensions/revolution.extension.slideanims.min.js', array('jquery'), null, true );
+	//wp_enqueue_script( 'extensions/revolution.extension.video.min', get_template_directory_uri() . '/js/extensions/revolution.extension.video.min.js', array('jquery'), null, true );
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array('jquery'), null, true );
 	
 	wp_enqueue_script( 'barracuda-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

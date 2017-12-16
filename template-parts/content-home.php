@@ -104,268 +104,68 @@ experienced and successful founders, experts and innovators. Our prime focus is 
     
     
     <!--programme  starts-->
-    <section class="who-we-are padding-top" id="programme">
+    <section class="programme padding-top" id="programme">
         <div class="container">
-            <div class="text-center who-we-are-heading">
-                <h1>
-                    Who We Are
-                </h1>
-                <p class="padding-sides-intro top55">
-                    Passionate about Perfection Keep away from people who try Make your teams more productive
-                    to belittle your ambitions.
-                </p>
+            <div class="row">
+                <div class="col-md-6"><h2>The Founders Programme</h2></div>
+                <div class="col-md-6"><p class="lead">Parallel to the network, we run a one year (5 workshops) programme that helps each founder to develop their business and product models. </p></div>
 
             </div>
-            <div class="team-members top100">
+            <div class="programme-table top50">
+                <div class="row">
+	                <div class="col-md-12 bottom20">
+		                <small>Core elements of the programme</small>
+		            </div>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member-1  hover-div-yellow text-center">
-                                <div class="img-hover-circal">
-                                    <div class="member-1-img-back ">
-                                        <div class="img-center">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/team-1.png" alt="">
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="team-member-data text-center ">
-                                    <h3 class="name-member top55">
-                                        Ashiq Partho
-                                    </h3>
-                                    <p class="profession top15">
-                                        Managing Director
-                                    </p>
-                                    <p class="p3 top20">
-                                        Keep away from people who try to belittle your ambitions, small people always do.
-                                    </p>
-                                    <div class="top30 member-links">
-                                        <ul class="social">
-                                            <li><a href="#." class="facebook button"><i class="fa fa-facebook"></i> </a> </li>
-                                            <li><a href="#." class="twitter button"><i class="fa fa-twitter"></i> </a> </li>
-                                            <li><a href="#." class="linkedin button"><i class="fa fa-linkedin"></i> </a> </li>
-                                        </ul>
-
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member-2  hover-div-blue text-center">
-                                <div class="img-hover-circal">
-                                    <div class="member-2-img-back ">
-                                        <div class="img-center">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/team-2.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="team-member-data text-center">
-                                    <h3 class="name-member  top55">
-                                        Alaul Haque Konok
-                                    </h3>
-                                    <p class="profession top15">
-                                        Managing Partner
-                                    </p>
-                                    <p class="p3 top20">
-                                        Keep away from people who try to belittle your ambitions, small people always do.
-                                    </p>
-                                    <div class="member-links top30">
-                                        <ul class="social">
-                                            <li><a href="#." class="facebook button"><i class="fa fa-facebook"></i> </a> </li>
-                                            <li><a href="#." class="twitter button"><i class="fa fa-twitter"></i> </a> </li>
-                                            <li><a href="#." class="linkedin button"><i class="fa fa-linkedin"></i> </a> </li>
-                                        </ul>
-
-                                    </div>
-
-
-                                </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="education match-height">
+                            	<p>1. Education</p>
+								<p>Our domain experts lead an open discussion on their area of expertise relating to growth and sales, from brand and PR to selling to corporates.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member-3  hover-div-yellow text-center">
-                                <div class="img-hover-circal">
-                                    <div class="member-1-img-back ">
-                                        <div class="img-center">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/team-3.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="team-member-data text-center ">
-                                    <h3 class="name-member  top55">
-                                        Ahmed Mohiuddin
-                                    </h3>
-                                    <p class="profession top15">
-                                        Marketing Analyst
-                                    </p>
-                                    <p class="p3 top20">
-                                        Keep away from people who try to belittle your ambitions, small people always do.
-                                    </p>
-                                    <div class="top30 member-links">
-                                        <ul class="social">
-                                            <li><a href="#." class="facebook button"><i class="fa fa-facebook"></i> </a> </li>
-                                            <li><a href="#." class="twitter button"><i class="fa fa-twitter"></i> </a> </li>
-                                            <li><a href="#." class="linkedin button"><i class="fa fa-linkedin"></i> </a> </li>
-                                        </ul>
-
-                                    </div>
-
-
-                                </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="inspiration match-height">
+                            	<p>2. Inspiration</p>
+								<p>Each workshop hosts an invited later stage founder to speak about their success story. Sharing what they did, what worked and key strategies to their growth.</p>
                             </div>
-
                         </div>
-
+                        <div class="col-md-3 col-sm-3">
+                            <div class="accountability match-height">
+	                            <p>3. Accountability</p>
+								<p>Each founder has their sales revenues against forecasts centrally processed, aggregated and openly discussed each quarter. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+	                        <div class="support match-height">
+                            	<p>4. Support</p>
+								<p>We conclude with a facilitated session to share achievements and growth challenges, and collectively debate on how we solve these problems as a group.</p>
+	                        </div>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-            <div class="about-progress topbottom132">
-                <!-- <div class="row"> -->
-                    <!--
-<div class="col-md-12">
-                        <div class="col-md-6">
-                            <div class="progress-bar-blue bar top75">
-                                <h4  class="progress-profession-top">Strategy</h4>
-                                <div class="progress-bar " role="progressbar" aria-valuenow="96" style="width: 0" aria-valuemin="0" aria-valuemax="100">
-                                    <h4 class="right-top">
-                                        <span class="count">96</span>%
-                                    </h4>
-
-                                </div>
-                            </div>
-                            <div class="progress-bar-black bar top75">
-                                <h4  class="progress-profession">Design</h4>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="78" style="width: 0" aria-valuemin="0" aria-valuemax="100">
-                                    <h4 class="right">
-                                        <span class="count">78</span>%
-                                    </h4>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <div class="progress-bar-black bar top75">
-                                <h4 class="progress-profession-top">Development</h4>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" style="width: 0" aria-valuemin="0" aria-valuemax="100">
-
-
-                                    <h4 class="right-top">
-                                        <span class="count">70</span>%
-                                    </h4>
-
-                                </div>
-                            </div>
-                            <div class="progress-bar-blue bar top75">
-                                <h4  class="progress-profession">Marketing</h4>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" style="width: 0" aria-valuemin="0" aria-valuemax="100">
-
-
-                                    <h4 class="right">
-                                        <span class="count">85</span>%
-                                    </h4>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
--->
-
-                <!-- </div> -->
-
+            <div class="programme-application top50">
+	            <div class="row">
+		            <div class="col-md-2">
+			            <img src="<?php echo get_template_directory_uri(); ?>/images/programme-logo.png" class="logo-display" alt="Smiling Barracuda Arrow">
+		            </div>
+		            <div class="programme-application-message col-md-7 top25">
+			        <p>To be considered for the programme starting in January 2018, Apply Now!</p>
+			        <p>Applications are open until Christmas Day. </p>
+					<p>Applicants must be available for interview (via skype) in the first two weeks of January 2018. </p>
+		            </div>
+		            <div class="programme-application-buton col-md-3 top50">
+			            <a href="" class="btn btn-default btn-lg btn-block">Apply Now</a>
+		            </div>
+				</div>
             </div>
         </div>
-        <div id="team-achievement" class="team-achievement rotate-left">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center padding">
-                        <div class="team-achievement-data rotate-left-text">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="hover-div-white">
-                                        <div class="img-hover-circal">
-                                            <div class="num ">
-                                                <div class="num-inner-radius">
-                                                     <span class="count">
-                                                        2730
-                                                    </span>+
-                                                    <h4>
-                                                        Completed Projects
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="hover-div-white">
-                                        <div class="img-hover-circal">
-                                            <div class="num">
-                                                <div class="num-inner-radius">
-                                                <span class="count">
-                                                    39
-                                                </span>
-                                                <h4>
-                                                    Available Country
-                                                </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="hover-div-white">
-                                        <div class="img-hover-circal">
-                                            <div class="num">
-                                                <div class="num-inner-radius">
-                                                    <span class="count">
-                                                       125
-                                                    </span>M
-                                                    <h4>
-                                                        User Worldwide
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="hover-div-white">
-                                        <div class="img-hover-circal">
-                                            <div class="num">
-                                                <div class="num-inner-radius">
-                                                    0<span class="count">
-                                                    9
-                                                    </span>
-                                                    <h4>
-                                                        Award Winner
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
+        <div class="text-center bottom10">
+		<a href="#team" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
 
     </section>
     <!--programme  ends-->
@@ -644,7 +444,6 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	            <div class="col-md-4">
                     <div class="office-location">
                         <h2>About Us</h2>
-                        
                         <div class="social-contact">
 	                        <ul class="list-inline">
 		                        <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" alt="LinkedIn Barracuda"></a></li>

@@ -28,8 +28,15 @@ $(function ($) {
             scrollTop: ($(this.hash).offset().top - 10)
         }, 1000);
     });
-
-
+	
+	
+	/*-------------------------------------------------------------------*/
+    /*  Makes the height of all selected elements (".match-height")
+    /*  exactly equal. Requires jQuery matchHeight plugin.
+    /*-------------------------------------------------------------------*/
+        if ($.fn.matchHeight){
+            $('.match-height').matchHeight();
+        }
 
     /* ------- Sidebar Toggle ------ */
     $(".menu-icon").on("click",function () {

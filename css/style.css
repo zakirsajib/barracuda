@@ -52,7 +52,7 @@ section#home{
 	background-size: cover;
 }
 
-
+.programme,
 .homebarracuda,
 .homebarracuda-part-two,
 .homebarracuda-club{
@@ -126,6 +126,45 @@ section#home{
 .club-right-contents{
 	background-color: #f5f6f6;
 }
+
+
+section#programme{
+	background: url("../images/programme-background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+section#programme h2,
+section#programme p{
+	color: #fff;
+}
+section#programme h2{
+	font-size: 30px;
+}
+
+.programme .lead{
+	font-size: 16px;
+}
+
+.programme-application-message p{
+	font-size: 14px;
+}
+
+.programme-application-buton .btn-lg{
+	border-radius: 0;
+	font-size: 16px;
+}
+.programme-table .col-md-3.col-sm-3 {
+    border: 1px solid #fff;
+    padding: 3em 1em;
+}
+
+.programme-table .col-md-3.col-sm-3 p{
+	font-size: 14px;
+}
+
 
 /*Loader starts*/
 .loader{
@@ -243,7 +282,7 @@ body{
     background-size: cover ;
 }
 .parallax-content{
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     z-index: 1;
     background: #fff;
     overflow-x: hidden;
@@ -1782,6 +1821,39 @@ svg{
 .nf-field-element textarea{
 	background-color: transparent;
 	border: 1px solid #fff;
+	color: #fff;
+	padding: 2px 10px;
+}
+
+.send_button input{
+	background-image: url("../images/barracuda-sendarrow.png");
+	background-position: 5% 50%;
+	background-repeat: no-repeat;
+	padding: 5px 100px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.nf-response-msg p{
+	color: #fff;
+}
+
+/* newer firefox versions */
+::-moz-placeholder {
+  color:#fff !important;
+}
+/* older firefox versions */
+:-moz-placeholder {
+  color:#fff !important;
+}
+/* webkit browsers */
+::-webkit-input-placeholder {
+  color:#fff !important;
+}
+/* new IE  (10 and above) */
+:-ms-input-placeholder {
+  color:#fff !important;
 }
 
 
