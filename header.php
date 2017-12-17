@@ -56,11 +56,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-logo-full.png" class="logo-scrolled" alt="Smiling Barracuda">
                         </a>
                     </div>
-                    <div class="navbar-search-box-icon">
-                        <a href="#." class="search-icon">
-                            <i class="fa fa-search"> </i>
-                        </a>
-                    </div>
+                    
 <!--
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
@@ -82,18 +78,6 @@
 			                'container_id'		=>	'navbar-menu'
 			            ));
 			        ?>
-                    <div class="navbar-search-box" id="search-box">
-                        <div class="navbar-search-box-data">
-                            <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <input type="search" placeholder="type keyword(s) here" class="form-control" id="search" value="<?php echo get_search_query(); ?>" name="s">
-                                <div class="navbar-search-box-button">
-                                    <button type="submit" class="btn button-blue page-buttons button">
-                                        <?php echo _x( 'Search', 'submit button', 'aristocrat' ); ?>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
                 </div>
 
             </nav>

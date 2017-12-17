@@ -148,17 +148,17 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                 </div>
 
             </div>
-            <div class="programme-application top50">
+            <div class="programme-application top50 bottom50">
 	            <div class="row">
 		            <div class="col-md-2">
-			            <img src="<?php echo get_template_directory_uri(); ?>/images/programme-logo.png" class="logo-display" alt="Smiling Barracuda Arrow">
+			            <img src="<?php echo get_template_directory_uri(); ?>/images/programme-logo.png" class="programme-application-logo" alt="Smiling Barracuda Arrow">
 		            </div>
 		            <div class="programme-application-message col-md-7 top25">
 			        <p>To be considered for the programme starting in January 2018, Apply Now!</p>
 			        <p>Applications are open until Christmas Day. </p>
 					<p>Applicants must be available for interview (via skype) in the first two weeks of January 2018. </p>
 		            </div>
-		            <div class="programme-application-buton col-md-3 top50">
+		            <div class="programme-application-buton col-md-3 top50 bottom50">
 			            <a href="" class="btn btn-default btn-lg btn-block">Apply Now</a>
 		            </div>
 				</div>
@@ -481,6 +481,8 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                 </div>
             </div>
         </div>
+        <div class="text-center bottom10">
+		<a href="#home" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-up-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
     </section>
     <!-- contact us end -->
 </div>

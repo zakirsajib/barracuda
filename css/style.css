@@ -52,14 +52,14 @@ section#home{
 	background-size: cover;
 }
 
-.programme,
 .homebarracuda,
 .homebarracuda-part-two,
-.homebarracuda-club{
+.homebarracuda-club,
+.programme,
+.contact-us{
 	height: 100vh;
 	position: relative;
 }
-
 .bottom10{
 	position: absolute;
 	left: 0;
@@ -2181,7 +2181,7 @@ textarea {
         margin-left: 0;
     }
     .office-location .address, .office-location .phone, .office-location .envelope{
-        padding-top: 30px;
+/*         padding-top: 30px; */
     }
     .contact-us .name{
         margin-bottom: 15px;
@@ -3445,6 +3445,9 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 }
 /*iPhone 4*/
 @media only screen and (max-width: 320px) and (device-height: 480px) {
+	.feature-about-text img {
+ 	   max-width: 90%;
+	}
 	.feature-heading{
 		padding: 0;
 		font-size: 1.4rem;
@@ -3459,7 +3462,9 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		font-size: 0.9rem;
 		line-height: 1.1rem;
 	}
-	.homebarracuda-club{
+	.homebarracuda-club,
+	.programme,
+	.contact-us{
 		height: 100%;
 	}
 	.club-left-contents, 
@@ -3480,9 +3485,53 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.media-object{
 		max-width: 100%;
 	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 16px;
+		line-height: 1.3;
+	}
+	.supporters{
+		padding: 1em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 10px;
+		font-size: 16px;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 20px;
+	}
+	.full-menu ul.full-nav li{
+		display: block;
+		width: 100%;
+	}
+	.full-menu ul.full-nav  li a{
+		font-size: 1rem;
+		text-transform: capitalize;
+		padding: 0.5rem 1rem;
+	}
 }
 /*iPhone 5*/
 @media only screen and (max-width: 320px) and (device-height: 568px) {
+	.feature-about-text img {
+    	max-width: 90%;
+	}
 	.feature-heading{
 		padding: 0;
 		font-size: 1.5rem;
@@ -3494,7 +3543,9 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
-	.homebarracuda-club{
+	.homebarracuda-club,
+	.programme,
+	.contact-us{
 		height: 100%;
 	}
 	.club-left-contents, 
@@ -3514,6 +3565,45 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.media-object{
 		max-width: 100%;
+	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 16px;
+	}
+	.supporters{
+		padding: 2em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 20px;
+	}
+	.full-menu ul.full-nav li{
+		display: block;
+		width: 100%;
+	}
+	.full-menu ul.full-nav  li a{
+		font-size: 1rem;
+		text-transform: capitalize;
+		padding: 0.5rem 1rem;
 	}
 }
 /*iPhone 6*/
@@ -3528,7 +3618,9 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		font-size: 1.2rem;
 		line-height: 1.8rem;
 	}
-	.homebarracuda-club{
+	.homebarracuda-club,
+	.programme,
+	.contact-us{
 		height: 100%;
 	}
 	.club-left-contents, 
@@ -3548,6 +3640,36 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.media-object{
 		max-width: 150px;
+	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 16px;
+	}
+	.supporters{
+		padding: 2em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 25px;
 	}
 }
 /*iPhone 6 plus*/
@@ -3561,7 +3683,9 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.homeparttwo-text p{
 		font-size: 1.2rem;
 	}
-	.homebarracuda-club{
+	.homebarracuda-club,
+	.programme,
+	.contact-us{
 		height: 100%;
 	}
 	.club-left-contents, 
@@ -3581,6 +3705,33 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.media-object{
 		max-width: 150px;
+	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 16px;
+	}
+	.supporters{
+		padding: 2em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
 	}
 }
 /*Macbook Laptop 2008*/
@@ -3595,6 +3746,13 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.club-right-contents.padding-top.padding-bottom {
     	padding-top: 5.375rem;
 		padding-bottom: 2.375rem;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-message p{
+		line-height: 1;
 	}
 }
 /*Desktop*/
@@ -3630,8 +3788,34 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.media>.pull-left{
 		padding-top: 10px;	
 	}
+	
+	.parallax-content{
+		margin-bottom: 200px;
+	}
 	.homebarracuda-club h2{
 		margin: 10px 0 2.5em;
+	}
+	.programme,
+	.contact-us{
+		height: 100%;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	.programme-application-message{
+		text-align: center;
+	}
+	.site-info{
+		text-align: center;
+		padding-bottom: 25px;
 	}
 }
 
@@ -3661,5 +3845,8 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.homebarracuda-club h2{
 		margin: 10px 0 2.5em;
+	}
+	.parallax-content{
+		margin-bottom: 200px;
 	}
 }
