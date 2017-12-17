@@ -52,10 +52,16 @@ section#home{
 	background-size: cover;
 }
 
+section#homeform{
+	background: url("../images/home-background.jpg");
+	height: 150px;
+}
+
 .homebarracuda,
 .homebarracuda-part-two,
 .homebarracuda-club,
 .programme,
+.who-we-are,
 .contact-us{
 	height: 100vh;
 	position: relative;
@@ -163,6 +169,14 @@ section#programme h2{
 
 .programme-table .col-md-3.col-sm-3 p{
 	font-size: 14px;
+}
+
+.who-we-are-heading h2{
+	font-size: 1.2rem;
+	border-bottom: 2px solid #23355e;
+	padding: 0.5em 0;
+	color: #23355e;
+	font-weight: 600;
 }
 
 
@@ -355,8 +369,9 @@ p {
 }
 .p3{
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.25rem;
+    color: #23355e;
 }
 
 .rotate-right{
@@ -385,10 +400,10 @@ p {
 }
 .img-hover-circal
 {
-    padding: 4px;
-    -webkit-border-radius: 50%;
+/*     padding: 4px; */
+/*     -webkit-border-radius: 50%; */
     display: inline-block;
-    border: 2px solid transparent;
+/*     border: 2px solid transparent; */
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1274,121 +1289,75 @@ svg{
 /*who-we-are starts*/
 
 .team-members .member-1-img-back,
-.team-members .member-2-img-back{
-    background: #efefef;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+.team-members .member-2-img-back,
+.team-members .member-3-img-back,
+.team-members .member-4-img-back{
+/*     background: #efefef; */
+/*     border-radius: 50%; */
+/*     width: 250px; */
+/*     height: 250px; */
     position: relative;
     overflow: hidden;
-    margin: 0 auto;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+/*     margin: 0 auto; */
+/*     -webkit-border-radius: 50%; */
+/*     -moz-border-radius: 50%; */
 }
 .team-members .img-center
 {
+/*
     position: absolute;
     width: 140px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9;
+*/
 }
-.team-member-1 ,
-.team-member-2 ,
-.team-member-3{
+.team-member-1,
+.team-member-2,
+.team-member-3,
+.team-member-4{
     cursor: pointer;
+    color: #23355e;
 }
 .team-member-1 .img-center img,
 .team-member-2 .img-center img,
-.team-member-3 .img-center img{
+.team-member-3 .img-center img,
+.team-member-4 .img-center img{
     width: 100%;
 }
 .team-member-1:hover .img-center img,
 .team-member-2:hover .img-center img,
-.team-member-3:hover .img-center img{
+.team-member-3:hover .img-center img,
+.team-member-4:hover .img-center img{
     transform: scale(1.1);
 
 }
+
+.team-members .name-member,
+.team-members .profession{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: #23355e;
+}
 .team-members .name-member{
-    font-weight: 400;
+	font-weight: 700;
+	line-height: 1.5;
 }
 .team-members .profession{
-    font-size: 15px;
+	line-height: 1.2;	
 }
 
-/*who-we-are progress bar*/
-.progress-bar{
-    box-shadow: none;
+.person-info{
+	padding-right: 0;
 }
-.about-progress .bar{
-    box-shadow: inset 0 0 2px rgba(236, 236, 236, .8);
-    background: #ececec;
-    height: 7px;
-    border-radius: 0;
+.person-linkedin {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 
-}
-.about-progress .progress-bar-blue .progress-bar {
-    text-align: left;
-    color: #515A5F;
-    transition: 4s;
-}
-.about-progress .progress-bar-black .progress-bar {
-    background: #515A5F;
-    text-align: left;
-    color: #515A5F;
-    transition: 400ms;
-}
-.about-progress  .progress-profession-top {
-    position: absolute;
-    top: 44px;
-}
-.about-progress .right-top{
-    position: absolute;
-    right: 15px;
-    top: 44px;
-    font-size: 18px;
-}
-.about-progress  .progress-profession {
-    position: absolute;
-    top: 126px;
-}
-.about-progress .right{
-    position: absolute;
-    right: 15px;
-    top: 126px;
-    font-size: 18px;
-}
- .team-achievement-data{
-    color: #fff;
-}
-.num{
-    font-size: 3.125rem;
-    cursor: pointer;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: relative;
-}
-.num-inner-radius{
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-}
-#team-achievement .team-achievement-data h2 i{
-    font-size: 1.125rem;
-    color: #9c9c9c;
-}
-#team-achievement .team-achievement-data p{
-    color: #fff;
-}
-#team-achievement .team-achievement-data h2{
-    font-size: 2rem;
-    line-height: 40px;
-}
 /*who-we-are ends*/
 /*Awesome work starts*/
 /* Awesome work Portfolio Section */
@@ -1810,22 +1779,23 @@ svg{
 .office-location .address .p3{
     margin-left: 45px;
     color: #fff;
+    font-weight: 400;
 }
 .office-location .address .heading{
     font-weight: 600;
 }
 
 /*Ninja forms */
-.nf-field-element input, 
-.nf-field-element select, 
-.nf-field-element textarea{
+.contact-us .nf-field-element input, 
+.contact-us .nf-field-element select, 
+.contact-us .nf-field-element textarea{
 	background-color: transparent;
 	border: 1px solid #fff;
 	color: #fff;
 	padding: 2px 10px;
 }
 
-.send_button input{
+.contact-us .send_button input{
 	background-image: url("../images/barracuda-sendarrow.png");
 	background-position: 5% 50%;
 	background-repeat: no-repeat;
@@ -1835,7 +1805,7 @@ svg{
 	border-radius: 0;
 }
 
-.nf-response-msg p{
+.contact-us .nf-response-msg p{
 	color: #fff;
 }
 
@@ -1888,6 +1858,14 @@ textarea {
 .nf-form-fields-required {
     display: none;
 }
+
+/* Application Form*/
+
+.entry-header h4{
+	color: #23355e;
+    font-weight: 600;
+}
+
 
 /*footer ends*/
 @media screen and (max-width: 1024px){
@@ -2196,6 +2174,9 @@ textarea {
         float: right!important;
         margin-right: 60px;
     }
+    #homeform .navbar-right {
+	    margin-right: 0;
+	}
 }
 
 @media (max-width: 500px) {
@@ -3464,6 +3445,7 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.homebarracuda-club,
 	.programme,
+	.who-we-are,
 	.contact-us{
 		height: 100%;
 	}
@@ -3526,6 +3508,17 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		text-transform: capitalize;
 		padding: 0.5rem 1rem;
 	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
 }
 /*iPhone 5*/
 @media only screen and (max-width: 320px) and (device-height: 568px) {
@@ -3545,6 +3538,7 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.homebarracuda-club,
 	.programme,
+	.who-we-are,
 	.contact-us{
 		height: 100%;
 	}
@@ -3605,6 +3599,18 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		text-transform: capitalize;
 		padding: 0.5rem 1rem;
 	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
 }
 /*iPhone 6*/
 @media only screen and (max-width: 375px) and (device-height: 667px) {
@@ -3620,6 +3626,7 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.homebarracuda-club,
 	.programme,
+	.who-we-are,
 	.contact-us{
 		height: 100%;
 	}
@@ -3671,6 +3678,17 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	section#programme h2 {
     	font-size: 25px;
 	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
 }
 /*iPhone 6 plus*/
 @media only screen and (max-width: 414px) and (device-height: 736px) {
@@ -3685,6 +3703,7 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.homebarracuda-club,
 	.programme,
+	.who-we-are,
 	.contact-us{
 		height: 100%;
 	}
@@ -3733,6 +3752,17 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		display: table;
 		margin: 0 auto;
 	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
 }
 /*Macbook Laptop 2008*/
 @media only screen and (device-height: 800px) {
@@ -3754,11 +3784,26 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.programme-application-message p{
 		line-height: 1;
 	}
+	section#team {
+    	padding-top: 3rem;
+	}
+	.team-member-data.top50.match-height{
+		margin-top: 25px;
+	}
+	.img-hover-circal.top50{
+		margin-top: 15px;
+	}
+	section#contact {
+    	padding: 1rem 0;
+	}
 }
 /*Desktop*/
 @media only screen and (device-height: 960px) {
 	.padding-top {
     	padding-top: 10.375rem;
+	}
+	section#team {
+    	padding-top: 6.375rem;
 	}
 }
 /*iPad*/

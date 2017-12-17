@@ -45,6 +45,7 @@ if ( ! function_exists( 'barracuda_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Primary', 'barracuda' ),
+			'secondary' => esc_html__( 'Secondary', 'barracuda' ),
 		) );
 
 		/*
