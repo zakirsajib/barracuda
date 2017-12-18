@@ -118,6 +118,9 @@ add_action( 'widgets_init', 'barracuda_widgets_init' );
  * Enqueue scripts and styles.
  */
 function barracuda_scripts() {
+	
+	wp_enqueue_style( 'Open+Sans', '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+	
 	wp_enqueue_style( 'barracuda-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');

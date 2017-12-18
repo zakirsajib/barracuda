@@ -1,5 +1,5 @@
 /*font-family: 'Open Sans Condensed', sans-serif;*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800'); */
 
 
 /* table of contents */
@@ -61,17 +61,28 @@ section#homeform{
 
 .navbar-fixed-top #entry-title h3 {
     color: #fff;
-    line-height: 3;
+    line-height: 7;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
 .scroll-nav #entry-title h3{
 	color: #23355e;
-	line-height: 0;
+	line-height: 3;
+	font-size: 1rem;
+	font-weight: 600;
 }
 
 div#nf-form-2-cont{
 	color: #23355e!important;
+}
+
+div#nf-form-2-cont .nf-field-element textarea{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+}
+div#nf-form-2-cont .nf-field-element input[type=text]{
+	padding: 5px 10px;
 }
 
 .form-message,

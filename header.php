@@ -130,7 +130,7 @@
                         <div class="col-sm-12">
                             <ul class="social">
                                 <li>
-                                    <a href="#." class="twitter button">
+                                    <a href="https://twitter.com/barracudaclub" target="_blank" class="twitter button">
                                         <i class="fa fa-twitter" ></i>
                                     </a>
                                 </li>
