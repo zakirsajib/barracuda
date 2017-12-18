@@ -33,5 +33,6 @@ get_header('form'); ?>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	</div><!-- end parallax content -->
 <?php
 get_footer();

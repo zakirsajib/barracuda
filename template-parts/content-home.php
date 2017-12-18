@@ -339,4 +339,4 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 		<a href="#home" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-up-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
     </section>
     <!-- contact us end -->
-</div>
+</div><!-- end parallax content -->

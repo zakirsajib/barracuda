@@ -73,6 +73,22 @@ section#homeform{
 	font-weight: 600;
 }
 
+
+#scrollToTop{
+	background-color: #23355e;
+	color: #fff;
+	text-decoration: none;
+	position:fixed;
+	bottom: 65px;
+	right:25px;
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 40px;
+}
+
 div#nf-form-2-cont{
 	color: #23355e!important;
 }
