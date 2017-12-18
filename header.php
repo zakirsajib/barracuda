@@ -50,9 +50,12 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
+                        
+                        <?php $custom_logo_id = get_theme_mod( 'custom_logo' );
+	                        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/home-page-center-logo.png" class="logo-display" alt="Smiling Barracuda">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-logo-full.png" class="logo-scrolled" alt="Smiling Barracuda">
+                            <img src="<?php echo $image[0]?>" class="logo-display" alt="<?php bloginfo( 'name' );?>">
+                            <img src="<?php echo get_theme_mod('header_logo', 'No Logo has been provided yet.')?>" class="logo-scrolled" alt="<?php bloginfo( 'name' );?>">
                         </a>
                     </div>
                     
@@ -113,7 +116,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 columns half text-center">
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-full heading_space"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-logo-full.png" alt="Smiling Barracuda"></a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-full heading_space"><img src="<?php echo get_theme_mod('header_logo', 'No Logo has been provided yet.')?>" alt="<?php bloginfo( 'name' ); ?>"></a>
 
                         </div>
                                                 

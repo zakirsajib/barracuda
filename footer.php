@@ -30,12 +30,11 @@
 					<div class="supporters col-md-8">
 						<ul class="list-inline">
 							<li>Supported by</li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/capital_enterprise.png" alt="Capital Enterprise"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/casts.png" alt="CASTS"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/eu.png"  alt="European Union"></a></li>
+							<li><a href="<?php echo get_theme_mod('url_field_ce')?>" target="_blank"><img src="<?php echo get_theme_mod('ce_logo', 'No Capital Enterprise Logo has been provided yet.')?>" alt="Capital Enterprise"></a></li>
+							<li><a href="<?php echo get_theme_mod('url_field_casts')?>" target="_blank"><img src="<?php echo get_theme_mod('casts_logo', 'No CASTS Logo has been provided yet.')?>" alt="CASTS"></a></li>
+							<li><a href="<?php echo get_theme_mod('url_field_eu')?>" target="_blank"><img src="<?php echo get_theme_mod('eu_logo', 'No EU Logo has been provided yet.')?>"  alt="European Union"></a></li>
 						</ul>
 					</div>
-					
 				</footer><!-- #colophon -->
             </div>
         </div>

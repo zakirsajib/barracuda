@@ -75,11 +75,12 @@ if ( ! function_exists( 'barracuda_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
+			'height'      => 324,
+			'width'       => 304,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
 	}
 endif;
 add_action( 'after_setup_theme', 'barracuda_setup' );
