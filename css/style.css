@@ -53,8 +53,57 @@ section#home{
 }
 
 section#homeform{
-	background: url("../images/home-background.jpg");
+	background: url("../images/application_form_bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
 	height: 150px;
+}
+
+.navbar-fixed-top #entry-title h3 {
+    color: #fff;
+    line-height: 3;
+    font-weight: 500;
+}
+
+.scroll-nav #entry-title h3{
+	color: #23355e;
+	line-height: 0;
+}
+
+div#nf-form-2-cont{
+	color: #23355e!important;
+}
+
+.form-message,
+.form-message p{
+	color: #23355e;
+	font-weight: 700;
+	font-size: 14px;
+}
+.form-terms{
+	color: #23355e;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 700;	
+}
+
+.form_apply_now input#nf-field-11{
+	background-color: #23355e;
+	color: #fff;
+	padding: 1em 5em;
+	font-size: 14px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	width: 30%;
+}
+
+.form-heading{
+	margin-bottom: 0!important;
+}
+
+hr.ninja-forms-field{
+	margin: 0 0 20px;
 }
 
 .homebarracuda,
@@ -1861,7 +1910,7 @@ textarea {
 
 /* Application Form*/
 
-.entry-header h4{
+.entry-header h3{
 	color: #23355e;
     font-weight: 600;
 }

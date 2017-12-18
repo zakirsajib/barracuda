@@ -56,18 +56,6 @@
                         </a>
                     </div>
                     
-<!--
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class="active"><a href="#home" class="scroll">Home</a></li>
-                            <li> <a href="#club" class="scroll">The Club</a></li>
-                            <li> <a href="#programme" class="scroll">Founder's Programme</a></li>
-                            <li> <a href="#team" class="scroll">The Team</a></li>
-                            <li> <a href="#contact" class="scroll">Contact</a></li>
-                        </ul>
-                    </div>
--->
-                    
                     <?php
 			            wp_nav_menu( array(
 			                'menu'              => 'primary',

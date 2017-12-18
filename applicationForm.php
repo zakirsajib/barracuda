@@ -19,7 +19,6 @@ get_header('form'); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="container">
-				<div class="row">
 					<?php
 					while ( have_posts() ) : the_post();
 		
@@ -31,7 +30,6 @@ get_header('form'); ?>
 						endif;
 					endwhile; // End of the loop.
 					?>
-				</div>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

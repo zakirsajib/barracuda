@@ -49,9 +49,13 @@
                         </a>
                     </div>
                     
+                    <div class="collapse navbar-collapse" id="entry-title">
+                    	<div class="nav navbar-nav navbar-right top50">
+                    		<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
+                    	</div>
+                    </div>
                     
-                    
-                    
+<!--
                     <?php
 			            wp_nav_menu( array(
 			                'menu'              => 'secondary',
@@ -61,6 +65,7 @@
 			                'container_id'		=>	'navbar-menu'
 			            ));
 			        ?>
+-->
                 </div>
 
             </nav>    
