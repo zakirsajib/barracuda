@@ -85,6 +85,20 @@ div#nf-form-2-cont .nf-field-element input[type=text]{
 	padding: 5px 10px;
 }
 
+div#nf-form-2-cont .nf-response-msg{
+	padding: 1em 0;
+	border: 1px solid green;
+	margin: 0 0 5em;
+}
+
+div#nf-form-2-cont .nf-response-msg p{
+	color: #23355e;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+
 .form-message,
 .form-message p{
 	color: #23355e;
