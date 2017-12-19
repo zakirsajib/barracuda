@@ -36,8 +36,6 @@
     <header>
     <section class="home-main" id="home">
         <h2 class="sr-only">This is home section</h2>
-
-
             <!-- Navigation -->
             <nav class="navbar navbar-default navbar-fixed navbar-fixed-top ">
                 <div class="menu-icon-position">
@@ -73,30 +71,40 @@
             </nav>
         <section class="homebarracuda padding-top">
 	        <div class="container">
-	            <div class="text-center feature-about-text">
-	                <h5 class="above-heading-line">
-	                    <img src="<?php echo get_template_directory_uri(); ?>/images/home-page-center-logo.png" class="logo-display" alt="Smiling Barracuda">
-	                </h5>
-	                <h2 class="feature-heading top100">Supporting SME founders in becoming successful entrepreneurs.</h2>
+	            <div class="text-center feature-about-text">		            
+	                <?php if( get_field('home_logo') ): ?>
+		                <h5 class="above-heading-line">
+		                <img src="<?php the_field('home_logo')?>" class="logo-display" alt="Smiling Barracuda">
+		                </h5>
+		             <?php else:?>
+		             	<h5 class="above-heading-line">
+			             	<img src="<?php echo get_template_directory_uri(); ?>/images/home-page-center-logo.png" class="logo-display" alt="Smiling Barracuda">
+		             	</h5>
+		             <?php endif;?>
+	                <?php if( get_field('home_statement') ): ?>
+	                	<h2 class="feature-heading top100"><?php the_field('home_statement')?></h2>
+	                <?php else:?>
+	                	<h2 class="feature-heading top100">Supporting SME founders in becoming successful entrepreneurs.</h2>
+	                <?php endif;?>
 	                <div class="bottom10">
 		            	<a href="#homeparttwo" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a>
 	            	</div>	
 	            </div>
-	            
 	        </div>
 	    </section>
 
 		<section class="homebarracuda-part-two padding-top" id="homeparttwo">
 	        <div class="container">
 	            <div class="homeparttwo-text">
-	                <p class="top20">"Being an entrepreneur is lonely. And it gets lonelier the more successful you are. Finding someone to talk openly to gets harder. You’re never really your own boss. You have more bosses than when you worked in corporate – You need to satisfy far too many people; clients, your team, your partners.</p>
-
-					<p class="top20">	It's often really not that cool or awesome. But the magic moments make everything worthwhile and once you start, you’ve crossed to the dark side and you can’t go back. </p>
-					
-					<p class="top20">That’s why I founded Smiling Barracuda -  to support the entrepreneurial journey that every founder is going through."</p>
-					
-					<p class="top20">Freddie Talberg</p>
-					<p class="top20"><em>Founder of Smiling Barracuda and Serial Entrepreneur</em></p>
+		            <?php if( get_field('founders_statement') ):
+		            	the_field('founders_statement');
+		            else:?>    
+		                <p class="top20">"Being an entrepreneur is lonely. And it gets lonelier the more successful you are. Finding someone to talk openly to gets harder. You’re never really your own boss. You have more bosses than when you worked in corporate – You need to satisfy far too many people; clients, your team, your partners.</p>
+						<p class="top20">It's often really not that cool or awesome. But the magic moments make everything worthwhile and once you start, you’ve crossed to the dark side and you can’t go back. </p>
+						<p class="top20">That’s why I founded Smiling Barracuda -  to support the entrepreneurial journey that every founder is going through."</p>
+						<p class="top20">Freddie Talberg</p>
+						<p class="top20"><em>Founder of Smiling Barracuda and Serial Entrepreneur</em></p>
+					<?php endif;?>
 	            </div>
 	            <div class="text-center bottom10">
 		            <a href="#club" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a>
