@@ -43,7 +43,7 @@
 
 </div><!-- #page -->
 <?php if(is_page('15')):?>
-	<a href="#page" id="scrollToTop" class="scroll" title="Back to Top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	<a href="#page" id="scrollToTop" class="scroll" title="Back to Top"><i class="fa fa-angle-up white" aria-hidden="true"></i></a>
 <?php endif;?>
 
 <?php wp_footer(); ?>

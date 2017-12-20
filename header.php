@@ -87,7 +87,7 @@
 	                	<h2 class="feature-heading top100">Supporting SME founders in becoming successful entrepreneurs.</h2>
 	                <?php endif;?>
 	                <div class="bottom10">
-		            	<a href="#homeparttwo" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a>
+		            	<a href="#homeparttwo" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a>
 	            	</div>	
 	            </div>
 	        </div>
@@ -107,7 +107,7 @@
 					<?php endif;?>
 	            </div>
 	            <div class="text-center bottom10">
-		            <a href="#club" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a>
+		            <a href="#club" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a>
 	            </div>
 	        </div>
 	    </section>

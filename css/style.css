@@ -75,8 +75,6 @@ section#homeform{
 
 
 #scrollToTop{
-	background-color: #23355e;
-	color: #fff;
 	text-decoration: none;
 	position:fixed;
 	bottom: 65px;
@@ -89,6 +87,86 @@ section#homeform{
 	font-size: 40px;
 }
 
+i.fa.fa-angle-up,
+i.fa.fa-angle-down {
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+}
+
+i.fa.fa-angle-up.white,
+i.fa.fa-angle-down.white {
+    border: 2px solid #23355e;
+    color: #23355e;
+    line-height: 40px;
+}
+i.fa.fa-angle-down.blue {
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 40px;
+}
+i.fa.fa-angle-up.white{
+	font-size: 40px;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
 div#nf-form-2-cont{
 	color: #23355e!important;
 }
@@ -97,8 +175,15 @@ div#nf-form-2-cont .nf-field-element textarea{
 	border: 1px solid #ccc;
 	padding: 5px 10px;
 }
-div#nf-form-2-cont .nf-field-element input[type=text]{
+div#nf-form-2-cont .nf-field-element input[type=text],
+div#nf-form-2-cont .nf-field-element input[type=email],
+div#nf-form-2-cont .nf-field-element select{
 	padding: 5px 10px;
+	border: 1px solid #ccc;
+	background: transparent;
+}
+div#nf-form-2-cont .nf-field-element select{
+	height: 35px;	
 }
 
 div#nf-form-2-cont .nf-response-msg{
@@ -3609,6 +3694,18 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.team-members .profession{
 		font-size: 16px;
 	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 }
 /*iPhone 5*/
 @media only screen and (max-width: 320px) and (device-height: 568px) {
@@ -3655,7 +3752,8 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.site-info{
 		text-align: center;
-		font-size: 16px;
+		font-size: 14px;
+		line-height: 1rem;
 	}
 	.supporters{
 		padding: 2em 0;
@@ -3701,6 +3799,110 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.team-members .profession{
 		font-size: 16px;
 	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
+/*Huawei*/
+@media only screen and (max-width: 360px) and (device-height: 640px) {
+	.feature-heading{
+		padding: 0;
+		font-size: 1.8rem;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+	.homebarracuda-club,
+	.programme,
+	.who-we-are,
+	.contact-us{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 14px;
+		line-height: 1rem;
+	}
+	.supporters{
+		padding: 2em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 25px;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 }
 /*iPhone 6*/
 @media only screen and (max-width: 375px) and (device-height: 667px) {
@@ -3743,7 +3945,8 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.site-info{
 		text-align: center;
-		font-size: 16px;
+		font-size: 14px;
+		line-height: 1rem;
 	}
 	.supporters{
 		padding: 2em 0;
@@ -3778,6 +3981,18 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.team-members .name-member, 
 	.team-members .profession{
 		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
 	}
 }
 /*iPhone 6 plus*/
@@ -3820,7 +4035,8 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.site-info{
 		text-align: center;
-		font-size: 16px;
+		font-size: 14px;
+		line-height: 1rem;
 	}
 	.supporters{
 		padding: 2em 0;
@@ -3853,6 +4069,110 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.team-members .profession{
 		font-size: 16px;
 	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
+/*iPhone X*/
+@media only screen and (max-width: 375px) and (device-height: 812px) {
+	.feature-heading{
+		padding: 0;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+	.homebarracuda-club,
+	.programme,
+	.who-we-are,
+	.contact-us{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+	.parallax-content{
+		margin-bottom: 450px;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 14px;
+		line-height: 1rem;
+	}
+	.supporters{
+		padding: 2em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 25px;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	
 }
 /*Macbook Laptop 2008*/
 @media only screen and (device-height: 800px) {

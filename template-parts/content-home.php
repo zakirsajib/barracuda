@@ -130,7 +130,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 						</div>
 				</div>
         <div class="text-center bottom10">
-		<a href="#programme" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-blue-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
+		<a href="#programme" class="scroll"><i class="fa fa-angle-down white bounce" aria-hidden="true"></i></a></div>
     </section>
     <!--club ends-->
     
@@ -235,7 +235,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
             </div>
         </div>
         <div class="text-center bottom10">
-		<a href="#team" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
+		<a href="#team" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a></div>
 
     </section>
     <!--programme  ends-->
@@ -413,7 +413,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 				</div>
             </div>
         </div>
-        <div class="text-center bottom10"><a href="#contact" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-blue-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a>
+        <div class="text-center bottom10"><a href="#contact" class="scroll"><i class="fa fa-angle-down white bounce" aria-hidden="true"></i></a>
         </div>
     </section>
     <!--team  ends-->
@@ -464,7 +464,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
             </div>
         </div>
         <div class="text-center bottom10">
-		<a href="#home" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-up-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
+		<a href="#home" class="scroll"><i class="fa fa-angle-up bounce" aria-hidden="true"></i></a></div>
     </section>
     <!-- contact us end -->
 </div><!-- end parallax content -->
