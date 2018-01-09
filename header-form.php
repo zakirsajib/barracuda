@@ -52,22 +52,10 @@
                     </div>
                     
                     <div class="collapse navbar-collapse" id="entry-title">
-                    	<div class="nav navbar-nav navbar-right top50">
+                    	<div class="nav navbar-nav navbar-right top10">
                     		<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
                     	</div>
                     </div>
-                    
-<!--
-                    <?php
-			            wp_nav_menu( array(
-			                'menu'              => 'secondary',
-			                'theme_location'    => 'secondary',
-			                'items_wrap'		=>	'<ul class="nav navbar-nav navbar-right top50" data-in="fadeInDown" data-out="fadeOutUp">%3$s</ul>',
-			                'container_class'	=>	'collapse navbar-collapse',
-			                'container_id'		=>	'navbar-menu'
-			            ));
-			        ?>
--->
                 </div>
 
             </nav>    

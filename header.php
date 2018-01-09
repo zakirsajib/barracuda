@@ -69,31 +69,28 @@
                 </div>
 
             </nav>
-        <section class="homebarracuda padding-top">
+        <section class="homebarracuda padding-top padding-bottom">
 	        <div class="container">
 	            <div class="text-center feature-about-text">		            
 	                <?php if( get_field('home_logo') ): ?>
-		                <h5 class="above-heading-line">
+		                <h5 class="above-heading-line top60">
 		                <img src="<?php the_field('home_logo')?>" class="logo-display" alt="Smiling Barracuda">
 		                </h5>
 		             <?php else:?>
-		             	<h5 class="above-heading-line">
+		             	<h5 class="above-heading-line top60">
 			             	<img src="<?php echo get_template_directory_uri(); ?>/images/home-page-center-logo.png" class="logo-display" alt="Smiling Barracuda">
 		             	</h5>
 		             <?php endif;?>
 	                <?php if( get_field('home_statement') ): ?>
-	                	<h2 class="feature-heading top100"><?php the_field('home_statement')?></h2>
+	                	<h2 class="feature-heading top40"><?php the_field('home_statement')?></h2>
 	                <?php else:?>
-	                	<h2 class="feature-heading top100">Supporting SME founders in becoming successful entrepreneurs.</h2>
+	                	<h2 class="feature-heading top40">Supporting SME founders in becoming successful entrepreneurs.</h2>
 	                <?php endif;?>
-	                <div class="bottom10">
-		            	<a href="#homeparttwo" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a>
-	            	</div>	
 	            </div>
 	        </div>
 	    </section>
 
-		<section class="homebarracuda-part-two padding-top" id="homeparttwo">
+		<section class="homebarracuda-part-two padding-bottom" id="homeparttwo">
 	        <div class="container">
 	            <div class="homeparttwo-text">
 		            <?php if( get_field('founders_statement') ):
@@ -105,9 +102,6 @@
 						<p class="top20">Freddie Talberg</p>
 						<p class="top20"><em>Founder of Smiling Barracuda and Serial Entrepreneur</em></p>
 					<?php endif;?>
-	            </div>
-	            <div class="text-center bottom10">
-		            <a href="#club" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a>
 	            </div>
 	        </div>
 	    </section>
@@ -132,7 +126,6 @@
 				            wp_nav_menu( array(
 				                'menu'              => 'primary',
 				                'theme_location'    => 'primary',
-				                'link_before'		=>	'<span></span>',
 								'container_class'	=>	'col-sm-12 columns half text-left',
 				                'menu_class'		=>	'full-nav top20 heading_space'
 				            ));
@@ -141,12 +134,12 @@
                         <div class="col-sm-12">
                             <ul class="social">
                                 <li>
-                                    <a href="https://twitter.com/barracudaclub" target="_blank" class="twitter button">
+                                    <a href="<?php echo get_theme_mod('url_field_twitter')?>" target="_blank" class="twitter button">
                                         <i class="fa fa-twitter" ></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#." class="linkedin button">
+                                    <a href="<?php echo get_theme_mod('url_field_linkedin')?>" target="_blank" class="linkedin button">
                                         <i class="fa fa-linkedin" ></i>
                                     </a>
                                 </li>

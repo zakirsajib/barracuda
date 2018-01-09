@@ -10,60 +10,12 @@
 ?>
 
 <!-- Page Content -->
-	<!--club start*/-->
-    <!--
-<section class="homebarracuda-club padding-top" id="club">
-        <div class="container">
-            <div class="feature-onworking-list top25">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="club-left-contents">
-                                <div class="text-center"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-logo-full.png" alt="Smiling Barracuda Blue Logo"></div>
-                                
-                                <p class="top50">Growing as a founder and entrepreneur is just as important as growing
-your business if you don’t want to get left behind. </p>
-                                <p class="top20">Smiling Barracuda is an entrepreneur led network of high quality,
-experienced and successful founders, experts and innovators. Our prime focus is to support SME founders through this personal growth to become successful entrepreneurs. </p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="club-right-contents">
-                                <h2>The Network</h2>                                
-                                <div class="media">
-								    <div class="media-left pull-left media-middle">
-								        <img class="media-object img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/founders_icon.png" alt="Founders Icon" />
-								    </div>
-								    <div class="media-body">
-								      <h4 class="media-heading">Founders and Peers</h4><p>Our entrepreneurial network allows you to connect with like-minded talented founders. Share experiences and skills with people growing similar size businesses and support each other in the challenges you all face.</p>
-								    </div>
-                                </div>
-                                <div class="media">
-								    <div class="media-left pull-left media-middle">
-								        <img class="media-object img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/experts_icon.png" alt="Experts Icon" />
-								    </div>
-								    <div class="media-body">
-								      <h4 class="media-heading">Experts and Innovators</h4><p>Lean on a team of advisors and mentors ranging from academic experts, industry and domain experts and technical experts from UCL, Imperial, Cambridge, Southampton University, King’s College, EIE, XnTree, Cognicity and Growth Builder… to name a few!</p>
-								    </div>
-								</div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div class="text-center bottom10">
-		<a href="#programme" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/barracuda-blue-arrow.png" class="logo-display" alt="Smiling Barracuda Arrow"></a></div>
-        </div>
-    </section>
--->
-    <!--club ends-->
     
     <!--club start*/-->
-    <section class="homebarracuda-club padding-bottom" id="club">
+    <section class="homebarracuda-club" id="club">
             <div class="feature-onworking-list">
                         <div class="col-md-6 col-sm-6">
-                            <div class="club-left-contents padding-top padding-bottom top25">
+                            <div class="club-left-contents padding-top padding-bottom">
                                 <div class="text-center">
 	                                <?php if(get_field('club_logo')):?>
 	                                	<img src="<?php the_field('club_logo')?>" alt="Smiling Barracuda Blue Logo">
@@ -129,8 +81,6 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                            </div>
 						</div>
 				</div>
-        <div class="text-center bottom10">
-		<a href="#programme" class="scroll"><i class="fa fa-angle-down white bounce" aria-hidden="true"></i></a></div>
     </section>
     <!--club ends-->
     
@@ -138,7 +88,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
     
     
     <!--programme  starts-->
-    <section class="programme padding-top" id="programme">
+    <section class="programme padding-top padding-bottom" id="programme">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -156,13 +106,12 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	                <?php endif;?>
 	           </div>
             </div>
-            <div class="programme-table top50">
+            <div class="programme-table top20">
                 <div class="row">
 	                <div class="col-md-12 bottom20">
 		                <?php if(get_field('programme_table_heading')):?>
-		                	<small><?php the_field('programme_table_heading');?></small>
-		                <?php else:?>
-		                	<small>Core elements of the programme</small><?php endif;?>
+		                	<?php the_field('programme_table_heading');?>
+		                <?php endif;?>
 		            </div>
                 </div>
                 <div class="row">
@@ -208,7 +157,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                 </div>
 
             </div>
-            <div class="programme-application top50 bottom50">
+            <div class="programme-application top50">
 	            <div class="row">
 		            <div class="col-md-2">
 			            <?php if(get_field('programme_logo')):?>
@@ -225,7 +174,7 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 						<p>Applicants must be available for interview (via skype) in the first two weeks of January 2018. </p>
 					<?php endif;?>
 		            </div>
-		            <div class="programme-application-buton col-md-3 top50 bottom50">
+		            <div class="programme-application-buton col-md-3 top50">
 			            <?php if(get_field('programme_application_button_label') AND get_field('programme_application_button_url')):?>
 			            <a href="<?php the_field('programme_application_button_url')?>" target="_blank" class="btn btn-default btn-lg btn-block"><?php the_field('programme_application_button_label')?></a>
 			            <?php else:?>
@@ -234,23 +183,20 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 				</div>
             </div>
         </div>
-        <div class="text-center bottom10">
-		<a href="#team" class="scroll"><i class="fa fa-angle-down blue bounce" aria-hidden="true"></i></a></div>
-
     </section>
     <!--programme  ends-->
     
 	<!--team  starts-->
-    <section class="who-we-are padding-top" id="team">
+    <section class="who-we-are padding-top padding-bottom" id="team">
         <div class="container">
             <div class="row">
             	<div class="col-md-12"><div class="who-we-are-heading"><h2><?php the_field('team_heading')?></h2></div></div>
             </div>
             <div class="row">
-            	<div class="team-members bottom100">
+            	<div class="team-members">
 	                <div class="row">
 	                    <div class="col-md-12">
-	                        <div class="col-md-3 col-sm-3">
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
 	                            <div class="team-member-1  hover-div-yellow">
 	                                <div class="team-member-data top50 match-height">
 	                                    <div class="row">
@@ -260,8 +206,8 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 		                                    	<?php else:?>
 		                                    		<h3 class="name-member">Freddie Talberg</h3>
 		                                    	<?php endif;?>
-												<?php if(get_field('1_team_member_profession')):?>
-													<p class="profession"><?php the_field('1_team_member_profession')?></p>
+												<?php if(get_field('1_team_profession')):?>
+													<p class="profession"><?php the_field('1_team_profession')?></p>
 												<?php else:?>
 													<p class="profession">Director</p>
 												<?php endif;?>
@@ -283,15 +229,15 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	                                    <div class="member-1-img-back ">
 	                                        <div class="img-center">
 	                                            <?php if(get_field('1_team_member_image')):?>
-	                                            <img src="<?php the_field('1_team_member_image')?>" alt="<?php the_field('1_team_member_name')?>">
+	                                            <img class="img-responsive" src="<?php the_field('1_team_member_image')?>" alt="<?php the_field('1_team_member_name')?>">
 	                                            <?php else:?>
-	                                            <img src="<?php echo get_template_directory_uri(); ?>/images/talberg.jpg" alt="<?php the_field('1_team_member_name')?>"><?php endif;?>
+	                                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/talberg.jpg" alt="<?php the_field('1_team_member_name')?>"><?php endif;?>
 	                                        </div>
 	                                    </div>
 	                                </div>
 	                            </div>
 	                        </div>
-	                        <div class="col-md-3 col-sm-3">
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
 	                            <div class="team-member-2  hover-div-blue">
 	                                <div class="team-member-data top50 match-height">
 	                                    <div class="row">
@@ -301,14 +247,14 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 												<?php else:?>
 													<h3 class="name-member">Emily Holgate</h3>
 												<?php endif;?>
-												<?php if(get_field('2_team_member_profession')):?>
-													<p class="profession"><?php the_field('2_team_member_profession')?></p>
+												<?php if(get_field('2_team_profession')):?>
+													<p class="profession"><?php the_field('2_team_profession')?></p>
 												<?php else:?>
 													<p class="profession top15">Community Manager</p>
 												<?php endif;?>
 		                                    </div>
 		                                    <div class="person-linkedin col-md-2 col-xs-2">
-			                                    <a href="<?php the_field('2_team_linkedin_url')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('2_team_member_name')?>"></a>
+			                                    <a href="<?php the_field('2_team_linkedin_url')?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('2_team_member_name')?>"></a>
 		                                    </div>
 		                                </div>
 		                                <div class="row">
@@ -323,15 +269,15 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	                                    <div class="member-2-img-back ">
 	                                        <div class="img-center">
 		                                        <?php if(get_field('2_team_member_image')):?>
-		                                        <img src="<?php the_field('2_team_member_image')?>" alt="<?php the_field('2_team_member_name')?>">
+		                                        <img class="img-responsive" src="<?php the_field('2_team_member_image')?>" alt="<?php the_field('2_team_member_name')?>">
 		                                        <?php else:?>
-	                                            <img src="<?php echo get_template_directory_uri(); ?>/images/emily.jpg" alt="<?php the_field('2_team_member_name')?>"><?php endif;?>
+	                                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/emily.jpg" alt="<?php the_field('2_team_member_name')?>"><?php endif;?>
 	                                        </div>
 	                                    </div>
 	                                </div>
 	                            </div>
 	                        </div>
-	                        <div class="col-md-3 col-sm-3">
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
 	                            <div class="team-member-3  hover-div-yellow">
 	                                <div class="team-member-data top50 match-height">
 	                                    <div class="row">
@@ -341,13 +287,13 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 			                                    <?php else:?>
 	                                    			<h3 class="name-member">Colin Nunn</h3>
 	                                    		<?php endif;?>
-	                                    		<?php if(get_field('3_team_member_profession')):?>
-	                                    		<p class="profession top15"><?php the_field('3_team_member_profession')?></p>
+	                                    		<?php if(get_field('3_team_profession')):?>
+	                                    		<p class="profession top15"><?php the_field('3_team_profession')?></p>
 	                                    		<?php else:?>
 												<p class="profession top15">Finance Director</p><?php endif;?>
 											</div>
-											<div class="person-linkedin col-md- col-xs-2">
-			                                    <a href="<?php the_field('3_team_linkedin_url')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('3_team_member_name')?>"></a>
+											<div class="person-linkedin col-md-2 col-xs-2">
+			                                    <a href="<?php the_field('3_team_linkedin_url')?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('3_team_member_name')?>"></a>
 		                                    </div>
 										</div>
 	                                    <div class="row">
@@ -361,15 +307,15 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	                                    <div class="member-3-img-back ">
 	                                        <div class="img-center">
 		                                        <?php if(get_field('3_team_member_image')):?>
-		                                        <img src="<?php the_field('3_team_member_image')?>" alt="<?php the_field('3_team_member_name')?>">
+		                                        <img class="img-responsive" src="<?php the_field('3_team_member_image')?>" alt="<?php the_field('3_team_member_name')?>">
 		                                        <?php else:?>
-	                                            <img src="<?php echo get_template_directory_uri(); ?>/images/colin.jpg" alt="Colin Nunn"><?php endif;?>
+	                                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/colin.jpg" alt="Colin Nunn"><?php endif;?>
 	                                        </div>
 	                                    </div>
 	                                </div>
 	                            </div>
 	                        </div>
-	                        <div class="col-md-3 col-sm-3">
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
 	                            <div class="team-member-4  hover-div-yellow">
 	                                <div class="team-member-data top50 match-height">
 	                                    <div class="row">
@@ -379,14 +325,14 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 			                                    <?php else:?>
 	                                    			<h3 class="name-member">Emeline Wraith</h3>
 	                                    		<?php endif;?>
-												<?php if(get_field('4_team_member_profession')):?>
-												<p class="profession top15"><?php the_field('4_team_member_profession')?></p>
+												<?php if(get_field('4_team_profession')):?>
+												<p class="profession top15"><?php the_field('4_team_profession')?></p>
 												<?php else:?>
 												<p class="profession top15">Brand and PR for start-up & Growth</p>
 												<?php endif;?>
 		                                    </div>
-		                                    <div class="person-linkedin col-md- col-xs-2">
-			                                    <a href="<?php the_field('4_team_linkedin_url')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('4_team_member_name')?>"></a>
+		                                    <div class="person-linkedin col-md-2 col-xs-2">
+			                                    <a href="<?php the_field('4_team_linkedin_url')?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/profile-linkedin.jpg" alt="<?php the_field('4_team_member_name')?>"></a>
 		                                    </div>
 	                                    </div>
 	                                    <div class="row">
@@ -400,9 +346,9 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 	                                    <div class="member-4-img-back ">
 	                                        <div class="img-center">
 		                                        <?php if(get_field('4_team_member_image')):?>
-	                                            <img src="<?php the_field('4_team_member_image')?>" alt="<?php the_field('4_team_member_name')?>">
+	                                            <img class="img-responsive" src="<?php the_field('4_team_member_image')?>" alt="<?php the_field('4_team_member_name')?>">
 	                                            <?php else:?>
-	                                            <img src="<?php echo get_template_directory_uri(); ?>/images/emeline.jpg" alt="Emeline Wraith"><?php endif;?>
+	                                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/emeline.jpg" alt="Emeline Wraith"><?php endif;?>
 	                                        </div>
 	                                    </div>
 	                                </div>
@@ -413,13 +359,11 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 				</div>
             </div>
         </div>
-        <div class="text-center bottom10"><a href="#contact" class="scroll"><i class="fa fa-angle-down white bounce" aria-hidden="true"></i></a>
-        </div>
     </section>
     <!--team  ends-->
     
     <!-- contact us starts -->
-    <section class="contact-us padding" id="contact">
+    <section class="contact-us padding-top padding-bottom" id="contact">
         <div class="container">
             <div class="row">
 	            <div class="col-md-4">
@@ -432,14 +376,12 @@ experienced and successful founders, experts and innovators. Our prime focus is 
 		                        <li class="follow-us">Follow us at<br/><a href="https://twitter.com/<?php the_field('contact_twitter_url')?>" target="_blank">@<?php the_field('contact_twitter_url')?></a></li>
 	                        </ul>
                         </div>
-                        <div class="map top50">
+                        <div class="map top25">
 	                        <?php if(get_field('google_map_shortcode')):?>
-	                        	<?php echo do_shortcode(the_field('google_map_shortcode'))?>
-	                        <?php else:?>
-	                        	<?php echo do_shortcode('[wpgmza id="1"]')?>
+	                        	<?php the_field('google_map_shortcode')?>
 	                        <?php endif;?>
                         </div>
-                        <div class="address top50">
+                        <div class="address top25">
                             <i class="fa fa-map-marker" ></i>
                             <?php if(get_field('contact_address')):?>
                             	<?php the_field('contact_address')?>
@@ -463,8 +405,6 @@ experienced and successful founders, experts and innovators. Our prime focus is 
                 </div>
             </div>
         </div>
-        <div class="text-center bottom10">
-		<a href="#home" class="scroll"><i class="fa fa-angle-up bounce" aria-hidden="true"></i></a></div>
     </section>
     <!-- contact us end -->
 </div><!-- end parallax content -->

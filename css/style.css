@@ -232,6 +232,12 @@ hr.ninja-forms-field{
 	margin: 0 0 20px;
 }
 
+.team-member-data .p3 a{
+	color: #579fd7;
+	text-decoration: underline;	
+}
+
+/*
 .homebarracuda,
 .homebarracuda-part-two,
 .homebarracuda-club,
@@ -241,27 +247,33 @@ hr.ninja-forms-field{
 	height: 100vh;
 	position: relative;
 }
+*/
+/*
 .bottom10{
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
+*/
 
 .feature-heading{
 	color: #fff;
-	padding: 0 7em;
-	font-size: 2.3rem;
+	padding: 0 5em;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 2rem;
 }
 
 .homeparttwo-text{
-	padding: 0 15em;
+	padding: 0 5em;
 }
 
 .homeparttwo-text p{
+	font-weight: 400;
 	color: #fff;
-	font-size: 1.5rem;
-	line-height: 2rem;
+/* 	font-size: 1.2rem; */
+/* 	line-height: 2rem; */
 }
 
 .homebarracuda-club .media-body,
@@ -315,6 +327,7 @@ section#programme{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+	clear: both;
 }
 
 section#programme h2,
@@ -327,6 +340,7 @@ section#programme h2{
 
 .programme .lead{
 	font-size: 16px;
+	line-height: 1.60rem;
 }
 
 .programme-application-message p{
@@ -352,6 +366,11 @@ section#programme h2{
 	padding: 0.5em 0;
 	color: #23355e;
 	font-weight: 600;
+}
+
+img.img-responsive.aligncenter.size-full.wp-image-151{
+	padding: 1em 0;
+	max-width: 200px;
 }
 
 
@@ -543,7 +562,7 @@ p {
     line-height:  1.35rem;
 }
 .p3{
-    font-size: 0.875rem;
+/*     font-size: 0.875rem; */
     font-weight: 600;
     line-height: 1.25rem;
     color: #23355e;
@@ -949,7 +968,7 @@ nav.navbar .navbar-toggle {
 }
 .scroll-nav .navbar-brand > img,
 nav.navbar.navbar-fixed.scroll-nav .navbar-brand > img{
-    width: 80px;
+    width: 40px;
 }
 header nav.navbar.navbar-fixed .logo-display,
 header nav.navbar.navbar-fixed.scroll-nav .logo-scrolled{
@@ -1347,7 +1366,7 @@ header nav.navbar.navbar-fixed .menu-icon span:after{
     text-transform: uppercase;
     display: inline-block;
     padding: 1.5rem 2rem;
-    text-align: left;
+    text-align: center;
     background: #f5f5f5;
     cursor: pointer;
     border-radius: 50px;
@@ -2047,7 +2066,36 @@ textarea {
     html{
         font-size: 13px;
     }
-
+    .feature-heading{
+	  	padding: 0 5em;  
+	 }
+	 .office-location{
+        margin-top: 0px;
+    }
+    .office-location h2,
+    .social-info h2{
+	  	margin: 0px 0 2.5em;  
+	 }
+	 .parallax-content{
+		 margin-bottom: 0;
+	 }
+	 .footer{
+		 position: relative;
+	 }
+	 .site-info{
+		text-align: center;
+		font-size: 14px;
+		line-height: 1rem;
+	}
+	 .supporters{
+		padding: 1em 0;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 1em;
+	}
 }
 @media screen and (max-width: 1023px){
     nav.navbar.no-background .menu-icon span,
@@ -2166,7 +2214,7 @@ textarea {
     .nav.navbar .navbar-brand > img,
     .nav.navbar .scroll-nav .navbar-brand > img,
     nav.navbar .navbar-fixed.scroll-nav .navbar-brand > img {
-        width: 70px !important;
+        width: 40px !important;
     }
 
     header nav.navbar .navbar-fixed {
@@ -2190,8 +2238,11 @@ textarea {
     }
     /*contact us*/
     .office-location{
-        margin-top: 60px;
+        margin-top: 0px;
     }
+    .office-location h2{
+	  	margin: 0px 0 2.5em;  
+	 }
     /*pricing*/
     .pricing-boxes .pricing-box-left-text h1,
     .pricing-boxes .pricing-box-center-text h1,
@@ -2341,6 +2392,12 @@ textarea {
     }
     .contact-us .top70{
         margin-top: 20px;
+    }
+    .programme-table .col-md-3.col-sm-3{
+	    padding: 1em;
+    }
+    .media-left, .media>.pull-left{
+	    padding-top: 0;
     }
 
 }
@@ -3599,14 +3656,336 @@ header .index7-navbar  nav.navbar.navbar-fixed {
         transform: translateY(0);
     }
 }
-/*iPhone 4*/
-@media only screen and (max-width: 320px) and (device-height: 480px) {
+
+@media only screen and (max-width: 768px) {
+	.feature-heading{
+		padding: 0;
+	}
+	section#programme p{
+		margin-top: 20px;	
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	.programme-application-message{
+		text-align: center;	
+	}
+	.social-info h2{
+	  	margin: 25px 0 2.5em;  
+	 }
+	 .parallax-content{
+		 margin-bottom: 0;
+	 }
+	 .footer{
+		 position: relative;
+	 }
+}
+
+
+/*iPhone 6 plus*/
+@media only screen and (max-width: 414px){
+	.padding-top {
+    	padding-top: 5.375rem;
+	}
+	.feature-heading{
+		padding: 0;
+	}
+	.feature-about-text img.logo-display {
+    	max-width: 50%;
+	}
+	.homeparttwo-text{
+		padding: 50px 0 0;
+	}
+	.homebarracuda-club,
+	.programme,
+	.who-we-are,
+	.contact-us{
+		height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 5.375rem;
+		padding-bottom: 5.375rem;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.club-left-contents{
+		padding-bottom: 0;
+	}
+	.club-right-contents{
+		padding-top: 0;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+		width: 100%;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+	.parallax-content{
+		margin-bottom: 0;
+	}
+	.site-info{
+		text-align: center;
+		font-size: 14px;
+		line-height: 1rem;
+	}
+	.supporters .list-inline>li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location{
+		margin-top: 0;
+	}
+	.office-location h2{
+		margin: 0px 0 2.5em;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.footer{
+		position: relative;
+	}
+}
+/*iPhone 6*/
+@media only screen and (max-width: 375px){
+	.padding-top {
+    	padding-top: 5.375rem;
+	}
+	.feature-heading{
+		padding: 0;
+	}
+	.feature-about-text img.logo-display {
+    	max-width: 50%;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homeparttwo-text p{
+/* 		font-size: 1.2rem; */
+/* 		line-height: 1.8rem; */
+	}
+	.homebarracuda-club,
+	.programme,
+	.who-we-are,
+	.contact-us{
+		height: 100%;
+	}
+	.club-left-contents.padding-top.padding-bottom.top25,
+	.club-right-contents.padding-top.padding-bottom {
+    	height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 5.365rem;
+		padding-bottom: 5.375rem;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.club-left-contents{
+		padding-bottom: 0;
+	}
+	.club-right-contents{
+		padding-top: 0;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 25px;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location{
+		margin-top: 0;
+	}
+	.office-location h2{
+		margin: 0px 0 2.5em;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
+/*Huawei Honor*/
+@media only screen and (max-width: 360px){
+	.padding-top {
+    	padding-top: 5.375rem;
+	}
+	.feature-heading{
+		padding: 0;
+	}
+	.feature-about-text img.logo-display {
+    	max-width: 50%;
+	}
+	.homeparttwo-text{
+		padding: 20px 0 0;
+	}
+	.homebarracuda-club,
+	.programme,
+	.who-we-are,
+	.contact-us{
+		height: 100%;
+	}
+	.club-left-contents.padding-top.padding-bottom.top25,
+	.club-right-contents.padding-top.padding-bottom {
+    	height: 100%;
+	}
+	.club-left-contents, 
+	.club-right-contents{
+		padding-top: 5.375rem;
+		padding-bottom: 5.375rem;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+	}
+	.club-left-contents{
+		padding-bottom: 0;
+	}
+	.club-right-contents{
+		padding-top: 0;
+	}
+	.media-left, 
+	.media>.pull-left{
+		padding-top: 0;
+	}
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
+	}
+	.media-object{
+		max-width: 150px;
+	}
+	.programme .lead{
+		padding-top: 20px;
+	}
+	.programme-table.top50,
+	.programme-application.top50{
+		margin-top: 25px;
+	}
+	.programme-application-logo{
+		display: table;
+		margin: 0 auto;
+	}
+	section#programme h2 {
+    	font-size: 25px;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location{
+		margin-top: 0;
+	}
+	.office-location h2{
+		margin: 0px 0 2.5em;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
+
+
+/*Small Device*/
+@media only screen and (max-width: 320px){
+	.padding-top {
+    	padding-top: 5.375rem;
+	}
+	
 	.feature-about-text img {
  	   max-width: 90%;
 	}
 	.feature-heading{
 		padding: 0;
-		font-size: 1.4rem;
 	}
 	h2.feature-heading.top100{
 		margin-top: 20px;
@@ -3614,10 +3993,8 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	.homeparttwo-text{
 		padding: 20px 0 0;
 	}
-	.homeparttwo-text p{
-		font-size: 0.9rem;
-		line-height: 1.1rem;
-	}
+	.homebarracuda,
+	.homebarracuda-part-two,	
 	.homebarracuda-club,
 	.programme,
 	.who-we-are,
@@ -3626,633 +4003,27 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 	}
 	.club-left-contents, 
 	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 100%;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 16px;
-		line-height: 1.3;
-	}
-	.supporters{
-		padding: 1em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 10px;
-		font-size: 16px;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	section#programme h2 {
-    	font-size: 20px;
-	}
-	.full-menu ul.full-nav li{
-		display: block;
-		width: 100%;
-	}
-	.full-menu ul.full-nav  li a{
-		font-size: 1rem;
-		text-transform: capitalize;
-		padding: 0.5rem 1rem;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-}
-/*iPhone 5*/
-@media only screen and (max-width: 320px) and (device-height: 568px) {
-	.feature-about-text img {
-    	max-width: 90%;
-	}
-	.feature-heading{
-		padding: 0;
-		font-size: 1.5rem;
-	}
-	.homeparttwo-text{
-		padding: 20px 0 0;
-	}
-	.homeparttwo-text p{
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
-	.homebarracuda-club,
-	.programme,
-	.who-we-are,
-	.contact-us{
-		height: 100%;
-	}
-	.club-left-contents, 
-	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 100%;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 14px;
-		line-height: 1rem;
-	}
-	.supporters{
-		padding: 2em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 2em;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	section#programme h2 {
-    	font-size: 20px;
-	}
-	.full-menu ul.full-nav li{
-		display: block;
-		width: 100%;
-	}
-	.full-menu ul.full-nav  li a{
-		font-size: 1rem;
-		text-transform: capitalize;
-		padding: 0.5rem 1rem;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-}
-/*Huawei*/
-@media only screen and (max-width: 360px) and (device-height: 640px) {
-	.feature-heading{
-		padding: 0;
-		font-size: 1.8rem;
-	}
-	.homeparttwo-text{
-		padding: 20px 0 0;
-	}
-	.homeparttwo-text p{
-		font-size: 1.2rem;
-		line-height: 1.8rem;
-	}
-	.homebarracuda-club,
-	.programme,
-	.who-we-are,
-	.contact-us{
-		height: 100%;
-	}
-	.club-left-contents, 
-	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 150px;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 14px;
-		line-height: 1rem;
-	}
-	.supporters{
-		padding: 2em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 2em;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	section#programme h2 {
-    	font-size: 25px;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-}
-/*iPhone 6*/
-@media only screen and (max-width: 375px) and (device-height: 667px) {
-	.feature-heading{
-		padding: 0;
-	}
-	.homeparttwo-text{
-		padding: 20px 0 0;
-	}
-	.homeparttwo-text p{
-		font-size: 1.2rem;
-		line-height: 1.8rem;
-	}
-	.homebarracuda-club,
-	.programme,
-	.who-we-are,
-	.contact-us{
-		height: 100%;
-	}
-	.club-left-contents, 
-	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 150px;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 14px;
-		line-height: 1rem;
-	}
-	.supporters{
-		padding: 2em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 2em;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	section#programme h2 {
-    	font-size: 25px;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-}
-/*iPhone 6 plus*/
-@media only screen and (max-width: 414px) and (device-height: 736px) {
-	.feature-heading{
-		padding: 0;
-	}
-	.homeparttwo-text{
-		padding: 50px 0 0;
-	}
-	.homeparttwo-text p{
-		font-size: 1.2rem;
-	}
-	.homebarracuda-club,
-	.programme,
-	.who-we-are,
-	.contact-us{
-		height: 100%;
-	}
-	.club-left-contents, 
-	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 150px;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 14px;
-		line-height: 1rem;
-	}
-	.supporters{
-		padding: 2em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 2em;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-}
-/*iPhone X*/
-@media only screen and (max-width: 375px) and (device-height: 812px) {
-	.feature-heading{
-		padding: 0;
-	}
-	.homeparttwo-text{
-		padding: 20px 0 0;
-	}
-	.homeparttwo-text p{
-		font-size: 1.2rem;
-		line-height: 1.8rem;
-	}
-	.homebarracuda-club,
-	.programme,
-	.who-we-are,
-	.contact-us{
-		height: 100%;
-	}
-	.club-left-contents, 
-	.club-right-contents{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		background-color: #fff;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 0;
-	}
-	.homebarracuda-club .media-heading{
-		margin-top: 15px;
-	}
-	.media-object{
-		max-width: 150px;
-	}
-	.parallax-content{
-		margin-bottom: 450px;
-	}
-	.site-info{
-		text-align: center;
-		font-size: 14px;
-		line-height: 1rem;
-	}
-	.supporters{
-		padding: 2em 0;
-	}
-	.supporters .list-inline>li{
-		display: table;
-		text-align: center;
-		margin: 0 auto;
-		padding-top: 2em;
-	}
-	.programme .lead{
-		padding-top: 20px;
-	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-logo{
-		display: table;
-		margin: 0 auto;
-	}
-	section#programme h2 {
-    	font-size: 25px;
-	}
-	.person-info {
-    	padding-right: 15px;
-	}
-	.team-member-data .p3{
-		font-size: 1.25rem;
-		line-height: 1.8rem;
-	}
-	.team-members .name-member, 
-	.team-members .profession{
-		font-size: 16px;
-	}
-	.form_apply_now input#nf-field-11{
-		width: 100%;
-	}
-	.who-we-are-heading h2,
-	.office-location h2, 
-	.social-info h2{
-		font-size: 1.8rem;
-	}
-	.office-location .address .p3{
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
-	
-}
-/*Macbook Laptop 2008*/
-@media only screen and (device-height: 800px) {
-	.padding-top {
-    	padding-top: 8.375rem;
-	}
-	.club-left-contents.padding-top.padding-bottom.top25 {
-    	padding-bottom: 2.375rem;
 		padding-top: 5.375rem;
+		padding-bottom: 5.375rem;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
 	}
-	.club-right-contents.padding-top.padding-bottom {
-    	padding-top: 5.375rem;
-		padding-bottom: 2.375rem;
+	.club-left-contents{
+		padding-bottom: 0;
 	}
-	.programme-table.top50,
-	.programme-application.top50{
-		margin-top: 25px;
-	}
-	.programme-application-message p{
-		line-height: 1;
-	}
-	section#team {
-    	padding-top: 3rem;
-	}
-	.team-member-data.top50.match-height{
-		margin-top: 25px;
-	}
-	.img-hover-circal.top50{
-		margin-top: 15px;
-	}
-	section#contact {
-    	padding: 1rem 0;
-	}
-}
-/*Desktop*/
-@media only screen and (device-height: 960px) {
-	.padding-top {
-    	padding-top: 10.375rem;
-	}
-	section#team {
-    	padding-top: 6.375rem;
-	}
-}
-/*iPad*/
-@media only screen and (device-height: 1024px) {
-	.padding-top {
-    	padding-top: 15.375rem;
-	}
-	.feature-heading{
-		padding: 0 2em;
-	}
-	.homeparttwo-text {
-    	padding: 0 1em;
-	}
-	.homeparttwo-text p{
-		font-size: 2rem;
-		line-height: 3rem;
-	}
-	.club-left-contents.padding-top.padding-bottom.top25 {
-    	padding-bottom: 2.375rem;
-    	height: 100vh;
-	}
-	.club-right-contents.padding-top.padding-bottom {
-		padding-bottom: 2.375rem;
-		height: 100vh;
+	.club-right-contents{
+		padding-top: 0;
 	}
 	.media-left, 
 	.media>.pull-left{
-		padding-top: 10px;	
+		padding-top: 0;
 	}
-	
-	.parallax-content{
-		margin-bottom: 200px;
+	.homebarracuda-club .media-heading{
+		margin-top: 15px;
 	}
-	.homebarracuda-club h2{
-		margin: 10px 0 2.5em;
-	}
-	.programme,
-	.contact-us{
-		height: 100%;
+	.media-object{
+		max-width: 100%;
 	}
 	.programme .lead{
 		padding-top: 20px;
@@ -4265,43 +4036,48 @@ header .index7-navbar  nav.navbar.navbar-fixed {
 		display: table;
 		margin: 0 auto;
 	}
-	.programme-application-message{
-		text-align: center;
+	section#programme h2 {
+    	font-size: 20px;
+	}
+	.full-menu ul.full-nav li{
+		display: block;
+		width: 100%;
+	}
+	.full-menu ul.full-nav  li a{
+		font-size: 1rem;
+		text-transform: capitalize;
+		padding: 0.5rem 1rem;
+	}
+	.person-info {
+    	padding-right: 15px;
+	}
+	.team-member-data .p3{
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+	}
+	.team-members .name-member, 
+	.team-members .profession{
+		font-size: 16px;
+	}
+	.form_apply_now input#nf-field-11{
+		width: 100%;
+	}
+	.who-we-are-heading h2,
+	.office-location h2, 
+	.social-info h2{
+		font-size: 1.8rem;
+	}
+	.office-location{
+		margin-top: 0;
+	}
+	.office-location h2{
+		margin: 0px 0 2.5em;
+	}
+	.office-location .address .p3{
+		font-size: 1.5rem;
+		line-height: 2rem;
 	}
 	.site-info{
-		text-align: center;
-		padding-bottom: 25px;
-	}
-}
-
-/*iPad Pro*/
-@media only screen and (device-height: 1366px) {
-	.padding-top {
-    	padding-top: 20.375rem;
-	}
-	.feature-heading{
-		padding: 0 2em;
-		font-size: 3.5rem;
-	}
-	.homeparttwo-text {
-    	padding: 0 1em;
-	}
-	.homeparttwo-text p{
-		font-size: 2.5rem;
-		line-height: 3.5rem;
-		padding-bottom: 30px;
-	}
-	.club-right-contents.padding-top.padding-bottom {
-		height: 100vh;
-	}
-	.media-left, 
-	.media>.pull-left{
-		padding-top: 10px;	
-	}
-	.homebarracuda-club h2{
-		margin: 10px 0 2.5em;
-	}
-	.parallax-content{
-		margin-bottom: 200px;
+		font-size: 12px;
 	}
 }
